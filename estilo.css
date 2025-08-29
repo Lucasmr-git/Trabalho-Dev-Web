@@ -1,0 +1,123 @@
+body {
+    background-color: #948a5b;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+    width: 100%;
+    background-color: #1f1f1f;
+    padding: 15px 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    border-bottom: 2px solid #525252;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    color: #a8a8a8;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #8b771e;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+.conteudo-pagina {
+    padding: 120px 20px 20px 20px;
+    text-align: center;
+}
+
+
+h2, p {
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+    text-align: center;
+}
+
+/* Botão padrão */
+.botao {
+    display: inline-block;
+    padding: 20px 60px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.botao:hover {
+    background-color: #000;
+}
+
+
+.contato {
+    max-width: 400px;          
+    margin: 100px auto;         
+    padding: 20px;
+    background: #515151;       
+    border-radius: 8px;       
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.contato label {
+    display: block;            
+    margin-bottom: 5px;       
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.contato input, .contato textarea {
+    width: 90%;               
+    padding: 10px;
+    margin-bottom: 15px;       
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contato textarea {
+    height: 100px;
+    resize: vertical;          
+}
+
+.contato button {
+    width: 100%;
+    padding: 12px;
+    background: #fdfdfd;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contato button:hover {
+    background: #cbcbcb;
+}
