@@ -1,8 +1,11 @@
+/* Estilo geral da página */
 body {
     background-color: #948a5b;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Menu fixo no topo */
 .menu {
     width: 100%;
     background-color: #1f1f1f;
@@ -17,6 +20,7 @@ body {
     border-bottom: 2px solid #525252;
 }
 
+/* Lista de links dentro do menu */
 .menu ul {
     list-style: none;
     display: flex;
@@ -25,10 +29,12 @@ body {
     padding: 0;
 }
 
+/* Cada item da lista do menu */
 .menu li {
     margin: 0;
 }
 
+/* Links do menu */
 .menu a {
     color: #a8a8a8;
     text-decoration: none;
@@ -38,23 +44,25 @@ body {
     display: block;
 }
 
+/* Efeito ao passar o mouse nos links */
 .menu a:hover {
     background-color: #8b771e;
     color: white;
     transform: scale(1.05);
 }
 
-
+/* Espaçamento e alinhamento do conteúdo abaixo do menu */
 .conteudo-pagina {
     padding: 120px 20px 20px 20px;
     text-align: center;
 }
 
-
+/* Alinhamento de títulos e parágrafos */
 h2, p {
     text-align: center;
 }
 
+/* Lista centralizada dentro do conteúdo */
 ul {
     list-style-position: inside;
     padding: 0;
@@ -74,7 +82,7 @@ ul {
     background-color: #000;
 }
 
-
+/* Formulário de contato */
 .contato {
     max-width: 400px;          
     margin: 100px auto;         
@@ -85,6 +93,7 @@ ul {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+/* Rótulos do formulário */
 .contato label {
     display: block;            
     margin-bottom: 5px;       
@@ -92,6 +101,7 @@ ul {
     color: #ffffff;
 }
 
+/* Campos de texto e área de mensagem */
 .contato input, .contato textarea {
     width: 90%;               
     padding: 10px;
@@ -101,11 +111,13 @@ ul {
     font-size: 14px;
 }
 
+/* Caixa de texto maior para mensagens */
 .contato textarea {
     height: 100px;
     resize: vertical;          
 }
 
+/* Botão do formulário */
 .contato button {
     width: 100%;
     padding: 12px;
@@ -118,6 +130,7 @@ ul {
     transition: background 0.3s ease;
 }
 
+/* Efeito ao passar o mouse no botão do formulário */
 .contato button:hover {
     background: #cbcbcb;
 }
